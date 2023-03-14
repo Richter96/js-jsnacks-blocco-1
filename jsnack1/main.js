@@ -18,5 +18,5 @@ if (number1 > number2) {
 } else if (number2 > number1){
     console.log(`il numero maggiore è il secondo ${number2}`)
 } else if (number1 === number2) {
-    console.log('i due numeri sono')
+    console.log('i due numeri sono uguali')
 }
