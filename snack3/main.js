@@ -4,10 +4,10 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 
 
+let userNumber = 0
 
-let userNumber;
-
-for (i = 0; i < 10; i++) {
-    userNumber = prompt('dichiara 10 numeri')
-    console.log(userNumber)
+for (let i = 0; i < userNumber[i]; i++) {
+    userNumber = prompt('dichiara 10 numeri') 
+    console.log (userNumber)
+    
 }
