@@ -9,10 +9,14 @@ console.log(number1)
 const number2 = Number(prompt('dichiara un secondo numero'))
 console.log(number2)
 
+//dichiaro le costanti
+
 
 // trovo quale dei due numeri è il maggiore e lo stampo in consol
 if (number1 > number2) {
     console.log('il primo numero è il maggiore')
 } else if (number2 > number1){
     console.log('il secondo numero è il maggiore')
+} else if (number1 === number2) {
+    console.log('i due numeri sono')
 }
