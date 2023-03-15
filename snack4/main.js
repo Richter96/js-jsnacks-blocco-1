@@ -12,13 +12,19 @@ const invate = [
 const userName = prompt('Scrivi il tuo nome')
     console.log(userName)
 
+
+// for
 for (let i = 0; i < invate.length; i++){
     thisInvite= invate[i]
     if (userName == thisInvite) {
-        console.log('sei invitato')
+        alert('sei invitato')
     }
  
 }
+
+
+
+//while 
 let k = 0
 
 while (k < invate.length){
