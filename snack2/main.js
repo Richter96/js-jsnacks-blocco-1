@@ -15,8 +15,10 @@ const longSecondWord = secondWord.length
 console.log(longSecondWord)
 
 if (longFirstWord > longSecondWord) {
-    console.log(`la parola piu corta è di ${longSecondWord} carattteri ed è ${secondWord} mentre la piu lunga di ${longFirstWord} caratteri ed è ${firstWord}`)
+    console.log(`la parola piu corta è la seconda di "${longSecondWord}" carattteri ed è "${secondWord}" mentre la piu lunga è la prima di "${longFirstWord}" caratteri ed è "${firstWord}"`)
 } else if (longSecondWord > longFirstWord) {
-    console.log(`la parola piu corta è di ${longFirstWord} carattteri ed è ${firstWord} mentre la piu lunga è la seconda parola di ${longSecondWord} caratteri ed è ${secondWord}`)
-} 
+    console.log(`la parola piu corta è la prima di "${longFirstWord}" carattteri ed è "${firstWord}" mentre la piu lunga è la seconda parola di "${longSecondWord}" caratteri ed è "${secondWord}"`)
+} else {
+    console.log (`le due parole sono lunghe uguali`)
+}
 
