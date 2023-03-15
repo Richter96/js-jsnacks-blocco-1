@@ -20,13 +20,14 @@ console.log(sum); */
 Il programma stampa la somma di tutti i numeri inseriti. */
 
 let k = 0
-
 let sum = 0
+
 while (k < 10) {
     number = Number(prompt('inserischi un numero'))
     console.log(number)
     k++
-    sum = sum + number
+    // sum = sum + number
+    sum += number
 }
 
 console.log(sum)
